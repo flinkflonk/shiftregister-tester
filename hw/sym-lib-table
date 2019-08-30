@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ARDUINO_NANO)(type Legacy)(uri /home/michael/projects/shiftregister-tester/ARDUINO_NANO.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri /home/michael/projects/shiftregister-tester/74xx.lib)(options "")(descr ""))
+)
