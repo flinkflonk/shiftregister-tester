@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L shiftregister-tester-rescue:ARDUINO_NANO-ARDUINO_NANO TB1
+L shiftregister-tester-rescue:ARDUINO_NANO-ARDUINO_NANO-shiftregister-tester-rescue TB1
 U 1 1 5D66DDCB
 P 4200 3600
 F 0 "TB1" H 4200 5167 50  0000 C CNN
@@ -53,7 +53,7 @@ F 3 "" H 5050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shiftregister-tester-rescue:74LS165-74xx U1
+L shiftregister-tester-rescue:74LS165-74xx-shiftregister-tester-rescue U1
 U 1 1 5D66DF54
 P 6850 2850
 F 0 "U1" H 6850 3928 50  0000 C CNN
@@ -126,9 +126,9 @@ Text GLabel 4900 4000 2    50   Input ~ 0
 D6
 Text GLabel 4900 4100 2    50   Input ~ 0
 D7
-Text GLabel 3500 3000 0    50   Output ~ 0
+Text GLabel 3500 3000 0    50   Input ~ 0
 RDIN
-Text GLabel 7350 2250 2    50   Input ~ 0
+Text GLabel 7350 2250 2    50   Output ~ 0
 RDIN
 Text GLabel 3500 3100 0    50   Output ~ 0
 RDCP
@@ -215,4 +215,5 @@ F 3 "" H 5550 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 4900 5200 5000
+NoConn ~ 3500 3400
 $EndSCHEMATC
