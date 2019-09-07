@@ -25,7 +25,7 @@ hw is where the hardware is described, for KiCAD
 src is where the Arduino source code is located
 pics has some pictures of my (experimental) build
 
-> ![picture of the experimental buld](pics/DSC_0150_s.JPG)
+> ![picture of the experimental buld](pics/DSC_0150_m.JPG)
 
 The yellow LEDs are just to help me debugging, they're not
 essential to the build, because you normally only want to know
