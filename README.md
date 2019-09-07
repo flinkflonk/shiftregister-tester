@@ -1,7 +1,7 @@
 Shift Register Tester
 =====================
 
-This is a simple Arduino project to automate testing of 74xx shift
+This is a simple Arduino project to automate testing of 74xxx shift
 registers (well, apart from plugging in and out the actual chip)
 
 For starters, it will only handle 74x165 (x being empty, LS, HC, HCT,
@@ -21,9 +21,9 @@ implement it on a PIC or some other microcontroller, but we need
 ten outputs and three inputs, so there's that.
 
 Organization:
-hw is where the hardware is described, for KiCAD
-src is where the Arduino source code is located
-pics has some pictures of my (experimental) build
+* hw is where the hardware is described, for KiCAD
+* src is where the Arduino source code is located
+* pics has some pictures of my (experimental) build
 
 > ![picture of the experimental buld](pics/DSC_0150_m.JPG)
 
@@ -37,4 +37,10 @@ For me the breadboard build is more than enough.
 
 Future expansion: make it work for 74595s (serial in, parallel out).
 
-License is GPL
+I base my work partially on David H. Hovemeyer's excellent
+EEPROM programmer, at https://github.com/daveho/eeprog
+Thank you for making this possible, David.
+
+
+Since I base portions of this work on David H. Hovemeyer's, I use
+David's more permissive BSDlike license. See the source code.
